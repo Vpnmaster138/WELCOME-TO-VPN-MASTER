@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Karibu NtigaTV - Login</title>
+    <title>Jisajili - NtigaTV</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -63,13 +63,6 @@
             width: 100%;
             font-size: 12px;
         }
-        .contact-info {
-            font-size: 14px;
-            margin-top: 10px;
-        }
-        .login-option {
-            margin-top: 10px;
-        }
         .register-option {
             margin-top: 10px;
             text-align: center;
@@ -82,13 +75,13 @@
 </head>
 <body>
     <header>
-        <h1>Karibu NtigaTV</h1>
-        <p>Ingiza maelezo yako ili kuingia kwenye akaunti yako.</p>
+        <h1>Jisajili NtigaTV</h1>
+        <p>Tuna furaha kukupokea kwenye familia yetu!</p>
     </header>
 
     <main>
-        <h2>Login</h2>
-        <form action="login_process.html" method="POST">
+        <h2>Jisajili</h2>
+        <form action="register_process.html" method="POST">
             <label for="email">Barua Pepe:</label>
             <input type="email" id="email" name="email" required placeholder="Ingiza barua pepe yako">
 
@@ -108,23 +101,8 @@
                 <input type="tel" id="phone" name="phone" placeholder="Ingiza namba yako ya simu" required style="width: 70%; padding: 10px;">
             </div>
 
-            <button type="submit">Ingia</button>
-
-            <!-- Option ya kuingia bila kujaza taarifa -->
-            <div class="login-option">
-                <input type="checkbox" id="no-data" name="no-data">
-                <label for="no-data">
-                    <a href="https://youtube.com/@ntigatv" target="_blank" style="color: #4CAF50; text-decoration: none;">
-                        Ingia bila kujaza taarifa
-                    </a>
-                </label>
-            </div>
+            <button type="submit">Jisajili</button>
         </form>
-
-        <!-- Sehemu ya "Sign Up" -->
-        <div class="register-option">
-            <p>Huna akaunti? <a href="signup.html">Jisajili hapa</a></p>
-        </div>
     </main>
 
     <footer>
