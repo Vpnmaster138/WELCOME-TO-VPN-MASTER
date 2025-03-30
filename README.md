@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -13,7 +13,7 @@
             text-align: center;
         }
         header {
-            background-color: #003366; /* Dark Blue */
+            background-color: #003366; /* Ligtblue */
             color: red; /* Red text */
             padding: 20px;
         }
@@ -66,6 +66,9 @@
         .contact-info {
             font-size: 14px;
             margin-top: 10px;
+            cursor: pointer;
+            text-decoration: underline;
+            color: #4CAF50;
         }
         .login-option {
             margin-top: 10px;
@@ -128,7 +131,8 @@
     </main>
 
     <footer>
-        <p>Contact Us: 0623647378</p>
+        <p class="contact-info" onclick="window.location.href='https://wa.me/0623647378'">Contact Us: 0623647378 (WhatsApp)</p>
+        <p>Powered by VPN Master</p>
     </footer>
 </body>
 </html>
