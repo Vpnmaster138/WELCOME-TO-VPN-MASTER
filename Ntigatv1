@@ -1,0 +1,13 @@
+index.html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Karibu NtigaTV</title>
+</head>
+<body>
+    <h1>Karibu NtigaTV!</h1>
+    <p>Hii ni tovuti yetu ya majaribio kwenye GitHub Pages.</p>
+    <a href="https://www.youtube.com/channel/ntigatv">Tembelea YouTube Yetu</a>
+</body>
+</html>
+commit message "ongeza index.html"
