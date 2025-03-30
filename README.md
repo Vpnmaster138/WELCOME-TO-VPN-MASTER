@@ -13,7 +13,7 @@
             text-align: center;
         }
         header {
-            background-color: #003366; /* Ligtblue */
+            background-color: #003366; /* green */
             color: red; /* Red text */
             padding: 20px;
         }
