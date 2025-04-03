@@ -140,7 +140,7 @@
 
     let formData = new FormData(this); // Chukua data ya form
 
-    fetch("http://your-ip:5000/signup", {  // Badilisha your-ip na IP yako
+    fetch("http:/196.249.93.25/signup", {  // Badilisha your-ip na IP yako
         method: "POST",
         body: formData
     })
