@@ -135,4 +135,20 @@
         <p>Powered by VPN Master</p>
     </footer>
 </body>
+<script src="signup.js">document.querySelector("form").addEventListener("submit", function(event) {
+    event.preventDefault(); // Zuia default form submission
+
+    let formData = new FormData(this); // Chukua data ya form
+
+    fetch("http://your-ip:5000/signup", {  // Badilisha your-ip na IP yako
+        method: "POST",
+        body: formData
+    })
+    .then(response => response.json())  // Pokea response JSON
+    .then(data => {
+        alert(data.message); // Onyesha ujumbe wa response
+    })
+    .catch(error => console.error("Error:", error));
+});
+</script>
 </html>
