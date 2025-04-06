@@ -134,7 +134,6 @@
         <p class="contact-info" onclick="window.location.href='https://wa.me/0623647378'">Contact Us: 0623647378 (WhatsApp)</p>
         <p>Powered by VPN Master</p>
     </footer>
-</body>
 <script src="signup.js">document.querySelector("form").addEventListener("submit", function(event) {
     event.preventDefault(); // Zuia default form submission
 
@@ -151,4 +150,5 @@
     .catch(error => console.error("Error:", error));
 });
 </script>
+</body>
 </html>
