@@ -129,30 +129,7 @@
             <p>Huna akaunti? <a href="signup.html">Jisajili hapa</a></p>
         </div>
     </main>
-
-    <footer>
-        <p class="contact-info" onclick="window.location.href='https://wa.me/0623647378'">Contact Us: 0623647378 (WhatsApp)</p>
-        <p>Powered by VPN Master</p>
-    </footer>
-<script src="signup.js">document.querySelector("form").addEventListener("submit", function(event) {
-    event.preventDefault(); // Zuia default form submission
-
-    let formData = new FormData(this); // Chukua data ya form
-
-    fetch("http:/196.249.93.25/signup", {  // Badilisha your-ip na IP yako
-        method: "POST",
-        body: formData
-    })
-    .then(response => response.json())  // Pokea response JSON
-    .then(data => {
-        alert(data.message); // Onyesha ujumbe wa response
-    })
-    .catch(error => console.error("Error:", error));
-});
-</script>
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<h >
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VPN MASTER 2025</title>
@@ -475,15 +452,16 @@
             const y = e.clientY / window.innerHeight;
             
             container.style.transform = `perspective(1000px) rotateX(${(y - 0.5) * 5}deg) rotateY(${(x - 0.5) * -5}deg)`;
-        });
-        
+         
         container.addEventListener('mouseleave', () => {
             container.style.transform = 'perspective(1000px) rotateX(0) rotateY(0)';
-        });
-    </script>
-</body>
-</html>
+        
 
+    <footer>
+        <p class="contact-info" onclick="window.location.href='https://wa.me/0623647378'">Contact Us: 0623647378 (WhatsApp)</p>
+        <p>Powered by VPN Master</p>
+    </footer>
 
-</body>
-</html>
+            
+
+    
